@@ -27,4 +27,4 @@ The exception handling in each route ensures that appropriate error messages are
 
 I've encapsulated my Flask application within a Docker container using a Dockerfile.
 
-In my Dockerfile, I've defined the necessary steps to build the Docker image. This image contains all the dependencies, configurations, and my Flask application code. They can then use the Docker image I've created to start a container that runs my Flask application, independent of their local environment.
+In my Dockerfile, I've defined the necessary steps to build the Docker image. This image contains all the dependencies, configurations, and my Flask application code. You can then use the Docker image I've created to start a container that runs my application, independent of your local environment.
